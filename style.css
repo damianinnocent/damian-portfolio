@@ -1555,7 +1555,7 @@ button {
     align-items: flex-end;
 
     background-size: cover;
-    background-position: center;
+    background-position: center center;
 
     isolation: isolate;
 
@@ -1564,21 +1564,29 @@ button {
 
 
 /* =========================
-   BACKGROUND IMAGES
+   BEYOND WORK BACKGROUND IMAGES
    ========================= */
 
 .beyond-grid article:nth-child(1) {
     background-image: url("assets/assets/fitness.jpg");
+    background-size: cover;
+    background-position: center 30%;
+    background-repeat: no-repeat;
 }
 
 .beyond-grid article:nth-child(2) {
     background-image: url("assets/assets/reading.jpg");
+    background-size: cover;
+    background-position: center 35%;
+    background-repeat: no-repeat;
 }
 
 .beyond-grid article:nth-child(3) {
-    background-image: url("assets/assets/learning.jpg");
+    background-image: url("assets/assets/assets/learning.jpg");
+    background-size: cover;
+    background-position: center 30%;
+    background-repeat: no-repeat;
 }
-
 
 /* =========================
    DARK IMAGE OVERLAY
@@ -1603,15 +1611,17 @@ button {
 
 
 /* =========================
-   CARD CONTENT
+   BEYOND WORK TEXT
    ========================= */
 
 .beyond-grid article > span {
     color: #fff;
 
-    font-size: 0.75rem;
+    font-size: 0.85rem;
 
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+
+    font-weight: 500;
 }
 
 
@@ -1620,22 +1630,25 @@ button {
 
     font-family: var(--font-heading);
 
-    font-size: 1.8rem;
+    font-size: 2.2rem;
 
     color: #fff;
+
+    line-height: 1.1;
 }
 
 
 .beyond-grid p {
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.9);
 
-    font-size: 0.9rem;
+    font-size: 1rem;
 
     line-height: 1.7;
 
     margin: 0;
-}
 
+    max-width: 420px;
+}
 
 /* =========================
    HOVER EFFECT
