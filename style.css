@@ -1568,15 +1568,15 @@ button {
    ========================= */
 
 .beyond-grid article:nth-child(1) {
-    background-image: url("assets/fitness.jpg");
+    background-image: url("assets/assets/fitness.jpg");
 }
 
 .beyond-grid article:nth-child(2) {
-    background-image: url("assets/reading.jpg");
+    background-image: url("assets/assets/reading.jpg");
 }
 
 .beyond-grid article:nth-child(3) {
-    background-image: url("assets/learning.jpg");
+    background-image: url("assets/assets/learning.jpg");
 }
 
 
