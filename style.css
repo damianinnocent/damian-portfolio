@@ -868,13 +868,166 @@ button {
     }
 }
 
-
 @media (max-width: 600px) {
+
+    /* =========================
+       MOBILE HERO
+       ========================= */
+
+    .hero {
+        grid-template-columns: 1fr;
+
+        min-height: auto;
+
+        padding-top: 120px;
+
+        gap: 40px;
+    }
+
+
+    .hero-content {
+        text-align: center;
+    }
+
+
+    .eyebrow {
+        font-size: 0.65rem;
+
+        letter-spacing: 2px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .hero h1 {
+        font-size: clamp(3.5rem, 15vw, 5rem);
+
+        letter-spacing: -4px;
+
+        margin-bottom: 25px;
+    }
+
+
+    .hero h2 {
+        font-size: 1.15rem;
+
+        line-height: 1.4;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-bottom: 15px;
+    }
+
+
+    .hero-description {
+        font-size: 0.95rem;
+
+        line-height: 1.6;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .fitness {
+        font-size: 0.75rem;
+
+        margin-top: 10px;
+    }
+
+
+    /* =========================
+       MOBILE HERO BUTTONS
+       ========================= */
+
+    .hero-buttons {
+        justify-content: center;
+
+        flex-wrap: wrap;
+
+        gap: 10px;
+
+        margin-top: 30px;
+    }
+
+
+    .btn {
+        min-height: 48px;
+
+        padding: 0 20px;
+
+        font-size: 0.75rem;
+    }
+
+
+    /* =========================
+       MOBILE HERO VISUAL
+       ========================= */
+
+    .hero-visual {
+        height: 430px;
+
+        width: 100%;
+    }
+
+
+    .hero-circle {
+        width: 300px;
+
+        height: 300px;
+    }
+
+
+    .circle-content {
+        width: 260px;
+
+        height: 260px;
+    }
+
+
+    /* =========================
+       MOBILE FLOATING CARDS
+       ========================= */
+
+    .floating-card {
+        font-size: 0.7rem;
+
+        padding: 10px 14px;
+    }
+
+
+    .card-one {
+        top: 18%;
+
+        left: 0;
+    }
+
+
+    .card-two {
+        right: 0;
+
+        top: 40%;
+    }
+
+
+    .card-three {
+        bottom: 18%;
+
+        left: 8%;
+    }
+
+
+    /* =========================
+       MOBILE ABOUT
+       ========================= */
 
     .about {
         padding-top: 80px;
+
         padding-bottom: 80px;
     }
+
 
     .section-heading h2 {
         font-size: clamp(2.8rem, 13vw, 4.5rem);
@@ -882,9 +1035,11 @@ button {
         letter-spacing: -2px;
     }
 
+
     .large-text {
         font-size: 1.7rem;
     }
+
 
     .about-text {
         font-size: 0.95rem;
@@ -892,11 +1047,12 @@ button {
         line-height: 1.7;
     }
 
+
     .about-text .highlight {
         padding-left: 15px;
     }
-}
 
+}
 
 /* =========================
    ROTATING RING ANIMATION
